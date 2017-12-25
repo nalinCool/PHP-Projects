@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="author" content="hpeduction" />
+
+	<title>Untitled 1</title>
+</head>
+<hr color="orange" size="20">
+<h1 align="center" style="font-family: cursive; color: purple;" color="red">Registration Page</h1></hr>
+<hr color="green" size="20"></hr>
+
+<body>
+<form name="frm" action="RegPageData.php" method="post">
+<table align="center" bgcolor="#8080FF" border="2" cellspacing="2" cellpadding="3" title="Register">
+<tr><td>User Name</td><td><input type="text" name="nm" /></td></tr>
+<tr><td>Password</td><td><input type="password" name="pwd" /></td></tr>
+<tr><td>Mobile</td><td><input type="text" name="mob" /></td></tr>
+<tr><td>Address</td><td><textarea name="addr"></textarea></td></tr>
+<tr><td>Email</td><td><input type="email" name="email"/></td></tr>
+<tr><td>Date of Birth</td><td><input type="date" name="dob"/></td></tr>
+<tr><td>Gender</td><td><input type="radio" checked name="r1" value="Male"/>Male<br>
+                            <input type="radio" name="r1" value="Female"/>Female</td></tr>
+<tr><td>Hobbies</td><td><input type="checkbox" name="chk[]" value="Swimming"/>Swimming<br>
+                        <input type="checkbox" name="chk[]" value="Cricket"/>Cricket<br>
+                        <input type="checkbox" name="chk[]" value="Dance"/>Dancing<br>
+                        <input type="checkbox" name="chk[]" value="Sleeping"/>Sleeping<br></td></tr>
+<tr><td>CGPA</td><td><input type="numbers" name="cgpa" min="1" max="10"/></td></tr>
+<tr><td>Qualification</td><td><select name="qul"><option name="sel">~~Select~~</option><option name="btech">B. Tech</option>
+<option name="mtech">M. Tech</option><option name="mba">MBA</option></select></td></tr>
+<tr><td>Color</td><td><input type="color" name="color"/></td></tr>
+<tr><td>Upload Resume</td><td><input type="file" name="resume"/></td></tr>
+<tr><td colspan="2" align="center"><input type="submit" name="sub" value="Register"/>&nbsp;<input type="reset" value="Reset"/></td></tr>
+</table>
+</form>
+
+</body>
+</html>
